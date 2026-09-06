@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import './Products.css'
 const catalogImages = import.meta.glob('./assets/catalog/*.svg', { eager: true, import: 'default', query: '?url' })
 
-const phoneNumber = '2348168210893'
+const phoneNumber = '2349133490360'
 const productGroups = [
   ['Laptops', [
     ['HP', '250 G8', '15.6in business laptop, Core i3, 8GB RAM'], ['HP', 'ProBook 440 G8', '14in Core i5 laptop for work and study'], ['HP', 'EliteBook 840 G7', 'Premium 14in Core i5 business laptop'], ['Dell', 'Latitude 3420', '14in Core i5 laptop, 8GB RAM'], ['Dell', 'Inspiron 15 3511', '15.6in everyday laptop for home and school'], ['Dell', 'Vostro 3400', '14in Core i5 business laptop'], ['Lenovo', 'ThinkPad T480', '14in durable business laptop'], ['Lenovo', 'IdeaPad 3 15ITL6', '15.6in Core i5 everyday laptop'], ['Lenovo', 'Yoga 7', '14in touchscreen 2-in-1 laptop'], ['Apple', 'MacBook Air M1', '13.3in Apple Silicon laptop'], ['Acer', 'Aspire 5 A515', '15.6in productivity laptop'], ['Asus', 'VivoBook 15', '15.6in slim everyday laptop'],

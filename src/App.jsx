@@ -9,7 +9,7 @@ import printerImage from './assets/products/printer.jpg'
 import smartwatchImage from './assets/products/smartwatch.jpg'
 import ProductsPage from './Products.jsx'
 
-const whatsappLink = 'https://wa.me/2348168210893?text=Hello%20Chimex%20Digital%20World%2C%20I%27d%20like%20to%20ask%20about%20your%20products.'
+const whatsappLink = 'https://wa.me/2349133490360?text=Hello%20Chimex%20Digital%20World%2C%20I%27d%20like%20to%20ask%20about%20your%20products.'
 
 function App() {
   if (window.location.pathname === '/products') {
@@ -74,7 +74,7 @@ function App() {
 
       <section className="services" id="services"><div className="wrap services-inner"><div><p className="eyebrow">More than a counter</p><h2>Whatever you’re<br /><em>working on,</em> let’s help.</h2></div><div className="service-list"><div><span>01</span><b>Honest guidance</b><p>No jargon. Just a recommendation that fits.</p></div><div><span>02</span><b>Ready when you are</b><p>Pop in, call ahead, or ask about delivery.</p></div><div><span>03</span><b>Made for Ibadan</b><p>A friendly local shop in the heart of Dugbe.</p></div></div></div></section>
 
-      <footer className="footer wrap" id="visit"><div className="footer-brand"><span className="brand-mark">C</span><p>Small shop.<br /><b>Big possibilities.</b></p></div><div className="footer-info"><div><span className="footer-label">Find us</span><p>Iya-Olobe Road, Ekotedo<br />Dugbe, Ibadan 200113</p><a href="https://www.google.com/maps/search/?api=1&query=Iya-Olobe+Road+Ekotedo+Dugbe+Ibadan" target="_blank" rel="noreferrer">Get directions ↗</a></div><div><span className="footer-label">Chat with us</span><p><a href={whatsappLink} target="_blank" rel="noreferrer">+234 816 821 0893</a><br />Mon–Sat · 8am–6pm</p><a href={whatsappLink} target="_blank" rel="noreferrer">Ask about delivery ↗</a></div></div><div className="footer-bottom"><span>© 2026 Chimex Digital World</span><span>Built local. Used everywhere.</span></div></footer>
+      <footer className="footer wrap" id="visit"><div className="footer-brand"><span className="brand-mark">C</span><p>Small shop.<br /><b>Big possibilities.</b></p></div><div className="footer-info"><div><span className="footer-label">Find us</span><p>Iya-Olobe Road, Ekotedo<br />Dugbe, Ibadan 200113</p><a href="https://www.google.com/maps/search/?api=1&query=Iya-Olobe+Road+Ekotedo+Dugbe+Ibadan" target="_blank" rel="noreferrer">Get directions ↗</a></div><div><span className="footer-label">Chat with us</span><p><a href={whatsappLink} target="_blank" rel="noreferrer">09133490360</a><br />Mon–Sat · 8am–6pm</p><a href={whatsappLink} target="_blank" rel="noreferrer">Ask about delivery ↗</a></div></div><div className="footer-bottom"><span>© 2026 Chimex Digital World</span><span>Built local. Used everywhere.</span></div></footer>
       <a className="whatsapp-float" href={whatsappLink} target="_blank" rel="noreferrer" aria-label="Chat with Chimex Digital World on WhatsApp"><span className="whatsapp-icon">◔</span><span>Chat on WhatsApp</span></a>
     </main>
   )
